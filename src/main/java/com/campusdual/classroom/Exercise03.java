@@ -22,9 +22,9 @@ public class Exercise03 {
         String validUser="Sebas";
         String validPass="sebas01";
 if (user.equals(validUser) && pass.equals(validPass)){
-    System.out.println(greetings(user));
+    System.out.println(greetings(validUser));
 } else {
-    System.out.println(error(user));
+    System.out.println(error(validUser));
 }
     }
 
